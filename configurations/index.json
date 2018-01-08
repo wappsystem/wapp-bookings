@@ -11,9 +11,11 @@
 		"services":         {"url":"modules/static/services.html",	"name_for_search":"Services"},
         "prices":           {"url":"modules/static/prices.html",		"name_for_search":"Prices"},
 		"staff":           {"url":"modules/static/staff.html",		"name_for_search":"Our Staff"},
-		"booking":          {"url":"modules/dynamic/booking-panel.html",	"table_id":"20009702","demo_id":"17111902","demo_id_2":"17111901","name_for_search":"Medical practitioner booking"},
+		"booking":          {"url":"modules/dynamic/booking-panel.html",	"table_id":"20009702","demo_id":"17111902","demo_id_2":"17111901","name_for_search":"Booking"},
 		"booking-form":	    {"url":"modules/dynamic/booking-form.html",	"table_id":"20009702","demo_id":"17111902","name_for_search":""},
-        "booking-record":   {"url":"modules/dynamic/booking-record.html",	"table_id":"20009702","demo_id":"17111902","name_for_search":"Medical practitioner booking records"},
-        "availability":     {"url":"modules/dynamic/availability.html",	"table_id":"20009702","demo_id":"17111901","name_for_search":"Availability setup"}
+        "booking-record":   {"url":"modules/dynamic/booking-record.html",	"table_id":"20009702","demo_id":"17111902","name_for_search":"Booking records"},
+        "availability":     {"url":"modules/dynamic/availability.html",	"table_id":"20009702","demo_id":"17111901","name_for_search":"Availability setup"},
+        "contact_us":       {"url":"modules/dynamic/contact-us.html",	"table_id":"20011362","demo_id":"17111901","name_for_search":"Contact Us"},
+        "contact_us_records":{"url":"modules/dynamic/contact-us.record.html",	"table_id":"20011362","demo_id":"17111901","name_for_search":"Contact Us Records"}
 	}
 }

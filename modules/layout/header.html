@@ -17,14 +17,18 @@
         <div id="navbars__ID" class="navbar-collapse collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('home');"><i class="fa fa-home"></i> Home</a></li>
-                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('about');"><i class="fa fa-cloud"></i> About Us</a></li>
-                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('services');"><i class="fa fa-dollar"></i> Sevices</a></li>
-                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('prices');"><i class="fa fa-users"></i> Prices</a></li>
-                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('staff');"><i class="fa fa-life-ring"></i> Our Staff</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('about');"><i class="fa fa-info-circle"></i> About Us</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('services');"><i class="fa fa-bars"></i> Sevices</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('prices');"><i class="fa fa-dollar"></i> Prices</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('staff');"><i class="fa fa-users"></i> Our Staff</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('booking');"><i class="fa fa-calendar"></i> Make a Booking</a></li>
                 <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('contact_us');"><i class="fa fa-envelope"></i> Contact Us</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="nav_dropdown__ID" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-lock"></i> Administrator</a>
                     <div class="dropdown-menu" aria-labelledby="nav_dropdown__ID">
+                        <a class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('availability');">Staff Setup</a>
+                        <a class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('availability');">Availability Setup</a>
+                        <a class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('booking-record');">Booking Records</a>
                         <a class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('contact_us_records');">Contact Us Records</a>
                     </div>
                 </li>
@@ -50,7 +54,7 @@
     <style>
         #header__ID{
             /*background: rgba(229,180,131,0.8);*/
-            background: rgba(203,219,235,0.8);
+            background: rgba(208,161,131,0.8);
             color: #888;
         }
         #header__ID a{
@@ -83,7 +87,7 @@
         }
 		@media screen and (max-width:768px){
 			#nav__ID{
-				background-color:rgba(253,245,230,0.8);
+                background: rgba(208,161,131,0.8);
 			}
 	        #form__ID{
 		        padding-right:0px;
